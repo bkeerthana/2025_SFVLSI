@@ -1,6 +1,8 @@
 1_Day:
-
 Syllabus Overview- Instructions - Common Mistakes - How to avoid 
+Feedback Link : 
+https://forms.office.com/r/0VzcKYdzdX
+
 Operating System - 
         Kernel 
         Shell 
@@ -8,3 +10,7 @@ Lab:
 Check the kernel version, and default shell
 Getting Help 
 Env Variables 
+
+Reference: 
+https://bkeerthanamanipal.blogspot.com/2024/11/getting-help-in-linux.html
+
