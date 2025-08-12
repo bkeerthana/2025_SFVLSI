@@ -27,9 +27,21 @@ globbing
 Reference: 
 https://linux-training.be/funhtml/ch17.html
 
+3_Day: 
+globbing
+  - {} 
+  - []
+  - [^]
 
-Next ......
-Extended globbing
+Extended Globbing 
+  -@(pattern list| pattern list)
+  -!(pattern list| pattern list) 
+
+Absolute Path Vs Relative Path
+Explored file system 
+          - file command 
+          - /etc/
+          - /dev/null
 https://www.linuxjournal.com/content/bash-extended-globbing
 
 
