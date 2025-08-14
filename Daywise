@@ -44,6 +44,25 @@ Explored file system
           - /dev/null
 https://www.linuxjournal.com/content/bash-extended-globbing
 
+4_Day: 
+Redirection
+        > 
+        >>
+        <
+        2>
+        2>>
 
+Pipe 
+        | 
+
+Basic Commands
+        head 
+        tail 
+
+Power Utilities 
+        tr
+        sort 
+        uniq
+        wc 
 
 
