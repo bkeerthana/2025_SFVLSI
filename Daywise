@@ -58,11 +58,14 @@ Pipe
 Basic Commands
         head 
         tail 
+        cat 
 
 Power Utilities 
         tr
         sort 
         uniq
         wc 
+
+
 
 
