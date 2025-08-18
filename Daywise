@@ -66,6 +66,25 @@ Power Utilities
         uniq
         wc 
 
+5_Day:
+
+Quotes 
+     ' ' 
+     " " 
+     ` ` 
+     \ 
+
+Power Utilities / Filter 
+     cut 
+        -f 
+        -c 
+        -d 
+
+Revisit 
+      Redirection 
+      globbing 
+
+
 
 
 
