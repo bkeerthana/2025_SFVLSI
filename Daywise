@@ -84,6 +84,45 @@ Revisit
       Redirection 
       globbing 
 
+6_Day: Theory + Lab 
+Power utilites / filter 
+
+tr 
+  -d 
+  -s 
+  -c 
+
+Example : usecase with ls -l 
+
+sort 
+  -n 
+  -r 
+  -k 
+  -M 
+  -t 
+
+Example : usecase with ls -l 
+
+grep 
+  - n 
+  - c
+  - i 
+  - q 
+
+read 
+   -p 
+
+exit status 
+   $? 
+
+constructs 
+   if  test  condition 
+   comparison operators 
+          -numeric 
+          -string 
+
+      
+  
 
 
 
