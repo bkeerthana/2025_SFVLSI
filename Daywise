@@ -123,7 +123,30 @@ constructs
 
 shell script using grep and read statement
 
-      
+Day-7: 
+grep 
+   -A# (after)
+   -B# 
+   -C# 
+   -e
+   -E
+   -f 
+   -h 
+   -l 
+   -s 
+
+egrep 
+
+Regular expression 
+   | - Alternative 
+   ^
+   $ 
+   \< 
+   \>
+   [ ] ,  [^] , [1-9] 
+
+
+   
   
 
 
