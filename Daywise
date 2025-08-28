@@ -145,6 +145,25 @@ Regular expression
    \>
    [ ] ,  [^] , [1-9] 
 
+Day-8: 
+Arithmetic Operations 
+
+Method 1: Shell Arithmetic 
+          $((expression))
+
+Method 2: using bc 
+          echo "10 + 12" | bc 
+
+Method 3: using let 
+          let a=10 
+          let b=20
+          let c=a+b
+
+Method 4: using expr
+          a=10
+          b=20
+          c=`expr $a+$b`
+
 
    
   
