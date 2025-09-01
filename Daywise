@@ -164,6 +164,31 @@ Method 4: using expr
           b=20
           c=`expr $a+$b`
 
+Day-9:
+Command Line Arguments 
+
+To pass command line arguments
+./program.sh argument1 argument2 
+
+
+To access the argument, 
+      inside the script, use 
+
+$1 
+$2 ..... 
+
+$1 - to access first argument 
+$2 - to access second argument 
+.....
+${10} - to access tenth argument 
+$#    - to get the number of arguments 
+
+example: 
+Use with grep 
+
+
+
+
 
    
   
