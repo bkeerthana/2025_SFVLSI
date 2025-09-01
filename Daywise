@@ -186,6 +186,9 @@ $#    - to get the number of arguments
 example: 
 Use with grep 
 
+Readings:
+https://www.baeldung.com/linux/use-command-line-arguments-in-bash-script
+
 
 
 
