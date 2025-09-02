@@ -189,12 +189,60 @@ Use with grep
 Readings:
 https://www.baeldung.com/linux/use-command-line-arguments-in-bash-script
 
+Day-10:
+Lab+Theory 
+More on Command-line arguments 
+
+$@ 
+$*  
+
+${!#} - to get the last argument from the command line arguments 
+
+Slicing: 
+${@:start:length}
+
+${@: -1} - To get the last value 
+${@: 1}  - To get all the values 
+
+
+For looping 
+
+for arg in $@ 
+do 
+  echo $arg1 
+done 
+
+File operators 
+ -f - regular file 
+ -d - directory 
+ -e - exist or not 
+
+ -r - read permission or not 
+ -w - write permission or not 
+ -x-  execite permission or not 
+
+ -s  empty file 
+ -n  
+
+More on Regex 
+grouping 
+   (expression1| exxpression2) 
+   backreference 
+
+Explore: 
+https://regexcrossword.com/tutorial/1
+Readings:
+https://zerotomastery.io/blog/bash-regex/#Literals
+https://tldp.org/LDP/abs/html/x17129.html
+
+Note: 
+The difference between filename globbing and regular expressions. 
+Filename globbing only works for filenames, while regular expressions are used to match patterns in text more generally.
+While they both use the same set of symbols, they mean different things 
+(e.g., * matches 0 or more characters when globbing, but matches 0 or more repetitions of the character that precedes it when used in a regular expression).
 
 
 
-
-   
-  
 
 
 
