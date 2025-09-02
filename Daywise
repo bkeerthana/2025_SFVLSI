@@ -209,7 +209,7 @@ For looping
 
 for arg in $@ 
 do 
-  echo $arg1 
+  echo $arg
 done 
 
 File operators 
