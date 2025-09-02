@@ -219,7 +219,7 @@ File operators
 
  -r - read permission or not 
  -w - write permission or not 
- -x-  execite permission or not 
+ -x-  execute permission or not 
 
  -s  empty file 
  -n  
