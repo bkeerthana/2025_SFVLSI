@@ -269,6 +269,36 @@ Filename globbing only works for filenames, while regular expressions are used t
 While they both use the same set of symbols, they mean different things 
 (e.g., * matches 0 or more characters when globbing, but matches 0 or more repetitions of the character that precedes it when used in a regular expression).
 
+Day-11:
+Introduction to sed 
+         - What is sed 
+         - importance of sed 
+         - How sed works 
+         - pattern buffer and hold buffer 
+
+sed -options 'sed_command' filename 
+
+sed -options 'address sed_command' filename 
+sed -options 'address1,address2 sed_command' filename 
+
+sed -options '/pattern/ sed_command' filename 
+sed -options '/pattern1/,/pattern2/ sed_command' filename 
+
+sed -options '!sed_command' filename 
+sed -options 'address !sed_command' filename 
+sed -options '/patttern/ !sed command' filename 
+
+
+Options 
+
+-i - infile 
+-n - to suppress the default output of the 'p' command 
+
+
+sed commands: 
+p  - print 
+d  - delete 
+
 
 
 
