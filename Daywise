@@ -204,6 +204,34 @@ ${@:start:length}
 ${@: -1} - To get the last value 
 ${@: 1}  - To get all the values 
 
+Example:
+-----------------------------------------------------------------------------------
+#!/bin/bash
+
+# Strings and Parameter Expansions( ${} )
+rand_str="Scripting is used to automate the task"
+
+echo "$rand_str" 
+
+# get string length
+echo "string length: ${#rand_str}"
+
+# slicing 
+# ${string:start:length} 
+
+# extract from the index 2 to end of the string 
+echo "from index 2: ${rand_str:2}"
+
+# get string from 2nd index for length 7
+echo "from index 2, length 7: ${rand_str:2:7}"
+
+# last character
+echo "last character: ${rand_str: -1}"
+
+# except last character
+echo "except last character: ${rand_str:0:${#rand_str}-1}"
+
+--------------------------------------------------------------------------
 
 For looping 
 
