@@ -299,6 +299,29 @@ sed commands:
 p  - print 
 d  - delete 
 
+Day-12: 
+
+sed commands 
+     y - translate 
+     s - substitute 
+          flags 
+          g
+          # 
+          #g 
+          i  
+     a - append 
+     i - insert 
+     c - change 
+
+grouping 
+    { 
+    sed commands
+    } 
+
+Options 
+    -e to execute multiple commands 
+    -f to execute the sed commands from the file 
+
 
 
 
