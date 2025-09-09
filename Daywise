@@ -322,9 +322,57 @@ Options
     -e to execute multiple commands 
     -f to execute the sed commands from the file 
 
+Day-12: 
+Lab + class
+sed 
+    q - quit 
+    Q - Quit 
+
+    w - write 
+    
+    g - get overwrite
+    G - get append
+
+    l - To check special characters 
+
+    s command 
+    flag 
+    ---------------------
+    w filename 
+    p 
+    ---------------------
+    pattern holding & 
+
+    Example : 'sed s/.*/[&]/' filename 
+
+Process 
+    Foreground 
+    Background 
+
+    sleep 
+
+    bg
+    fg 
+
+    jobs 
+
+    kill 
+    killall
+
+    pstree
+
+    ps aux 
+
+Scheduling 
+    at 
+    atq 
 
 
+Next .....
+atrm 
+at -f 
 
+    
 
 
 
