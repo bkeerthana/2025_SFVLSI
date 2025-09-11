@@ -368,11 +368,19 @@ Scheduling
     atq 
 
 
-Next .....
+Day-13:
 atrm 
 at -f 
 
-    
+crontab
+crontab -e
+crontab -l 
+
+awk 
+syntax:
+awk -options '/pattern/{action}' filename 
+
+pattern or action - any one is optional 
 
 
 
