@@ -376,11 +376,16 @@ crontab
 crontab -e
 crontab -l 
 
+Chaining commands in bash 
+&& || ;
+
 awk 
 syntax:
 awk -options '/pattern/{action}' filename 
 
-pattern or action - any one is optional 
+pattern or action - any one is optional The 
+default action is print
+
 
 
 
