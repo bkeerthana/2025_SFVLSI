@@ -383,8 +383,64 @@ awk
 syntax:
 awk -options '/pattern/{action}' filename 
 
-pattern or action - any one is optional The 
+pattern or action - any one is optional The The 
 default action is print
+
+Day-14: 
+when to use 
+            -grep 
+            -sed 
+            -awk 
+
+awk - General syntax 
+
+awk -options program filename 
+
+program 
+   - pattern block 
+   - action block 
+
+Pattern Block 
+   - matching pattern 
+   - comparision 
+   - conditional statements 
+
+Action Block 
+   - print 
+   - increment, decrement 
+   - array operations 
+   - if conditional statements 
+   - looping statements 
+   - built-in functions 
+              - string 
+              - math 
+   - system commands  and so on 
+
+Awk process 
+       - file  - collection of records 
+       - record - collection of fields 
+
+field 
+The first field is represented by $1
+The second field is represented by $2 
+The whole record is represented by $0 
+
+Options 
+-F  - used to specify a field seperator 
+
+subroutine
+  BEGIN { } 
+  
+  END   { } 
+
+Examples 
+       action block : print 
+       pattern block : /pattern matching/ 
+
+Built in variables
+FS - Field separator 
+
+
 
 
 
