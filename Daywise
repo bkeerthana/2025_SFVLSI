@@ -434,13 +434,64 @@ subroutine
   END   { } 
 
 Examples 
-       action block : print 
-       pattern block : /pattern matching/ 
+       action block: print 
+       pattern block: /pattern matching/ 
 
-Built in variables
+Built-in variables
 FS - Field separator 
 
+Day-15 
+Theory + Lab 
 
+Built-in variables 
+   FS - Field Separator
+   OFS - Output Field separator 
+
+   RS - Record Separator 
+   ORS - Output Record Seperator  
+   NF - Number of fields
+
+Pattern Block 
+    What are the possibilities in Pattern Block
+   - matching pattern 
+        simple -    /pattern/
+        complex-    /regex pattern/ 
+   - comparison 
+         x < y True if x is less than y.
+         x <= y True if x is less than or equal to y.
+         x > y True if x is greater than y.
+         x >= y True if x is greater than or equal to y.
+         x == y True if x is equal to y.
+         x != y True if x is not equal to y.
+         Explore: x ~ y True if x matches the regular expression described by y.
+         Explore: x !~ y True if x does not match the regular expression described by y.
+
+    - conditional 
+          and  - && 
+          or   - || 
+          not  - !
+
+
+     Action block 
+        What are the possbilites in action block 
+        { }  
+
+       - Default statement 
+             print 
+        - Expression 
+              simple 
+              count = $2 + $3 / $4;
+
+         - Control Structure          
+              conditional 
+                     yet to 
+              Looping 
+                     yet to 
+              function calls 
+                 -string
+                       length 
+                 -math 
+                     explore 
 
 
 
