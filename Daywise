@@ -322,7 +322,7 @@ Options
     -e to execute multiple commands 
     -f to execute the sed commands from the file 
 
-Day-12: 
+Day-13: 
 Lab + class
 sed 
     q - quit 
@@ -368,7 +368,7 @@ Scheduling
     atq 
 
 
-Day-13:
+Day-14:
 atrm 
 at -f 
 
@@ -386,7 +386,7 @@ awk -options '/pattern/{action}' filename
 pattern or action - any one is optional The The 
 default action is print
 
-Day-14: 
+Day-15: 
 when to use 
             -grep 
             -sed 
