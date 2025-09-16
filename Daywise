@@ -472,27 +472,52 @@ Pattern Block
           not  - !
 
 
-     Action block 
-        What are the possbilites in action block 
-        { }  
+     Action block   { }  
+       
+        What are the possibilities in the action block? 
+      
 
        - Default statement 
              print 
+
         - Expression 
               simple 
               count = $2 + $3 / $4;
+
+        - Function calls 
+                 -string
+                       length 
+                 -math 
+                       explore 
+
+      BEGIN and END Block
+         BEGIN { 
+               } 
+
+          END{
+             } 
+
+       Option 
+           -f 
+
+         
+Next ...............
 
          - Control Structure          
               conditional 
                      yet to 
               Looping 
                      yet to 
-              function calls 
-                 -string
-                       length 
-                 -math 
-                     explore 
+              
+         - More on Built in variables 
+              FNR
+              FILENAME 
+ 
+         - command line arguments 
+              argc argv[]
 
 
+         - option 
+               -v 
 
-
+ 
