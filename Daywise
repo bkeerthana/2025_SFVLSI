@@ -500,6 +500,19 @@ Pattern Block
        Option 
            -f 
 
+Day-16
+
+ - option 
+               -v 
+
+ - String built in functions 
+               - tolower 
+               - toupper 
+
+  - Different methods to execute awk script 
+              - command line 
+              - using option -f
+              - awk as executable 
          
 Next ...............
 
@@ -516,8 +529,10 @@ Next ...............
          - command line arguments 
               argc argv[]
 
+         - string built-in functions
+              sub
+              gsub
+              split 
 
-         - option 
-               -v 
 
- 
+           
