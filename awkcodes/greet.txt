@@ -1,0 +1,2 @@
+Hello world from awk
+Hello Welcome to the world to awk. Hello Students 

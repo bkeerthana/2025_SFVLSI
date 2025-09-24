@@ -1,0 +1,2 @@
+awk -e '/run1/' -e '/run5/'  report.log
+

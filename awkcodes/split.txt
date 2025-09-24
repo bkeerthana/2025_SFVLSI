@@ -1,0 +1,1 @@
+echo "Hello:world" | awk '{split($0,values,":");print values[2]}'
