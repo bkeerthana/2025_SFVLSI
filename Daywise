@@ -514,16 +514,16 @@ Day-17
               - using option -f
               - awk as executable 
          
-Next ...............
+Day-18
 
          - Control Structure          
               conditional 
-                     yet to 
+                   
               Looping 
-                     yet to 
+                    
               
          - More on Built in variables 
-              FNR
+              FNR  (Explore) 
               FILENAME 
  
          - command line arguments 
@@ -534,5 +534,28 @@ Next ...............
               gsub
               split 
 
+         -system 
 
-           
+         -getline 
+
+
+Day-19
+         Perl 
+            - scalar 
+                  hold string, numeric, boolean
+            - Operations 
+                  string operations 
+                        - concat 
+                        - repeat 
+                        - compare - le, eq, cmp and so on 
+                        - pattern matching 
+                        - chop 
+                        - chomp 
+                  numeric operations  
+                        - arithmetic operations 
+                        - compare 
+
+            - <> Operator 
+
+            - Intro to conditional statements 
+
