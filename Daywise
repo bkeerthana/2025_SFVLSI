@@ -559,3 +559,24 @@ Day-19
 
             - Intro to conditional statements 
 
+Day-20: 
+            Perl array 
+            How to create an array 
+            How to access an array element 
+                  $array_name[index]
+            How to delete an item 
+                 - pop   (last item)
+                 - shift (first item) 
+                 - splice 
+            How to add an item to the list 
+                 - push
+                 - unshift 
+                 - splice 
+            sort 
+            reverse 
+            count the number of items in the array 
+              - scalar
+
+
+
+
