@@ -577,6 +577,44 @@ Day-20:
             count the number of items in the array 
               - scalar
 
+Day-21: 
+           Pattern Matching 
+                  m operator 
+
+           Regular expression 
+
+           flag 
+              i
+              g 
+
+Try this code: 
+#!/usr/bin/perl
+   
+# Initializing the strings
+
+$string1 = 'Pattern Matching is very Powerrrrrrrrrrrrrrfullllllllllllllllllllllllll 123';
+
+  
+# Calling tr function
+#$string1 =~ tr/abc/bcd/;
+#$string1 =~ tr/[0-9]//d;
+#$string1 =~ tr/[0-9]//cd;
+#$string1 =~ tr/rl//s;
 
 
+# use to count number of matching characters 
+#$cnt=$string1 =~ tr/a-z//;
 
+# r modifier lets you retain original variable untouched and assign modified string to another variable
+$upper= $string1 =~ tr/a-z/A-Z/r;
+
+# c  complements 
+# d  delete
+# s  supress
+
+#$string1 =~ s/Powerful/Intresting/;
+
+# Printing the translated strings
+print "$string1\n";
+print "$upper\n";
+print "$cnt";
