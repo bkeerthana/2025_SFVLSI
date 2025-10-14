@@ -618,3 +618,47 @@ $upper= $string1 =~ tr/a-z/A-Z/r;
 print "$string1\n";
 print "$upper\n";
 print "$cnt";
+
+Day-22: 
+Revisiting Perl 
+Quotes 
+  q{} 
+  qq{}
+  qw{} 
+  qx{}
+Executing System commands 
+  system() 
+
+get the array of values and store in array using <> 
+
+split 
+join 
+
+comparison operator 
+conditional operator 
+
+Binding operator 
+  m 
+    m//gi
+  s 
+    s///gi
+  tr 
+   tr///cds
+
+Special variables 
+  $& 
+  $`
+  $' 
+extract exact, before and after match 
+
+PCRE 
+  \d
+  \w
+  \D
+  \W
+  \s 
+  \S 
+
+conditional statements in perl 
+
+
