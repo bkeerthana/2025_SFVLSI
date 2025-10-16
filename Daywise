@@ -661,4 +661,47 @@ PCRE
 
 conditional statements in perl 
 
+Day-22: 
+Command line arguments: 
+         How to pass arguments 
+         How to access 
+             ARGV 
+         to Count - @ARGV 
+         to find the index of the last item - $#ARGV 
+         shift @ ARGV - to access the first item from the list 
+
+File Literals 
+         __FILE__
+         __LINE__
+         __END__
+
+File handling 
+         open 
+             open (filehandle, mode, filename) 
+             Mode: 
+             
+| Mode  | Meaning                               | Example                        |
+| ----- | ------------------------------------- | ------------------------------ |
+| `<`   | Read-only (default)                   | `open(FH, '<', 'input.txt');`  |
+| `>`   | Write (creates/truncates file)        | `open(FH, '>', 'output.txt');` |
+| `>>`  | Append (creates file if missing)      | `open(FH, '>>', 'log.txt');`   |
+| `+<`  | Read and write (existing file)        | `open(FH, '+<', 'data.txt');`  |
+| `+>`  | Read and write (overwrite/create new) | `open(FH, '+>', 'data.txt');`  |
+| `+>>` | Read and append                       | `open(FH, '+>>', 'data.txt');` |
+
+             open the file in the read mode 
+             print all the contents from the file 
+             add the line number 
+             pattern matching in file 
+           
+         close 
+
+$. --> for line number 
+$! --> show error details 
+$_ --> default scalar variable name 
+@_ --> default array variable name 
+%_ --> default hash variable name 
+
+
+
 
