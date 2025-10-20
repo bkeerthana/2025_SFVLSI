@@ -1,0 +1,407 @@
+--------------------------------
+Perl Checklist 
+--------------------------------       
+	- Introduction to Perl
+	       perl not pearl 
+	       Larry wall 
+	       inspired by AWK 
+	       Messy Lang, Glue,... 
+	       
+	- Applications of Perl
+	       Automation, CGI, Networking, Web devlopment, ... 
+	       
+	- Getting in to Perl 
+	       - check perl is installed or not 
+	       
+	       - command line execution 
+	            perl -e 'print "hello"'
+	       
+	       - perl script
+	            helloworld.pl 
+	            
+	- How to get help 
+	       man perl 
+	           - man perlop
+	           - man perlfunc
+	           - man perldata
+	           - man perlvar
+	           - man perlre
+	           
+	       perldoc perl 
+	           - perldoc -f pqnt 
+	           - perldoc -f split 
+	           - perldoc -f open 
+	           - perldoc perlvar
+	           
+	       perl -h 
+	       
+	       perl -v 
+	       
+        - Different methods to execute perl script 
+                   - command line 
+                   - script 
+
+        - Comment line
+           single line - # 
+           multiline   - 
+                 =pod 
+
+                 =cut 
+
+	- Quotes in Perl 
+
+               Customary  Generic        Meaning        Interpolates
+		    ''       q{}          Literal             no
+    		    ""      qq{}          Literal             yes
+    		    ``      qx{}          Command             yes*
+            		    qw{}         Word list            no
+                    \ 
+	     
+	      
+        - Pragmas
+        modifies how the Perl interpreter behaves. 
+        It helps control warnings, strictness, memory usage, and optimizations. 
+        Pragmas are enabled using the use keyword.
+        
+        use strict;	        Forces variable declaration to prevent typos.
+        use warnings;	        Enables helpful warnings for potential mistakes.
+        use diagnostics;	Provides detailed explanations for warnings/errors.
+         
+        - Literals 
+        A literal in Perl is a fixed value that appears directly in the code. It can be numbers, strings,   		arrays, or special literals.
+        
+        int     Example: $x=10
+        float   Example: $pi=3.14
+        
+        String  Example: $course="vlsi"
+        Array   Example: @hobbies=("star gazing","reading", "learning", "teaching", "gardening") 
+        Hash    Example: subjects = ('vlsi' => 'scripting', 'Online' => 'DataVisualization' , 'cys' => 'webapp security');
+        
+        - Variables ( How to create, access, operations)
+             - Scalar  $
+             - Array   @
+             - Hash    %
+
+         - How to create using 
+	         -hardcode 
+	         -stdin 
+       
+        - Scalar Operations 
+         
+              -chop 
+              -chomp 
+              
+              String functions 
+              
+              -concat (.)
+              -repeat (x)        
+              -length 
+              -Explore: substr
+              -lc
+              -uc
+              -lcfirst
+              -ucfirst
+              -split 
+                                                
+              -comparison
+                                          
+                      shell - numeric - -lt -eq -gt -lt -ge -ne
+                      perl - numeric - ==, != <= < > >=
+                      
+                                       
+                      shell - string == !=
+                      perl  - string eq ne
+                            
+              -Conditional operators and Logical operators  
+              -Represent by 
+               Symbolic  : && || !
+               Word      : or and not 
+          
+              
+              -Binding operator 
+              -the binding operator (=~) is used to associate a string with a regular expression operation (matching, substitution, or transliteration).
+                                     !~
+              m operator 
+               m/pattern/modifiers
+
+              $text = "I love Perl programming.";
+              if ($text =~ /Perl/) 
+              {
+              print "The text contains 'Perl'.\n";
+              }
+              
+              m - modifiers- flags called as modifiers 
+	      
+              i - ignore case
+                  apply only first pattern ..... 
+	      g- global
+
+
+              Extract using: 
+                Special variables 
+	        $& - actual match 
+        	$` - before match 
+        	$' - after match
+
+             
+
+              s Operator 
+
+                   s/from/to/modifiers  
+              i - ignore case
+                  apply only first pattern ..... 
+	      g- global
+
+              tr Operator  
+                   tr/from/to/modifiers
+              Example: 
+                 $value ="ABCDE" 
+                 $value =~ tr/A//
+
+              modifiers 
+              c 
+              d 
+              s 
+
+              Perl Special Regex match variables : Extracting  
+
+	      used in  - m and s 
+
+	      extract - $&, $1,...
+          
+             Explore: with s 
+             s/(from) (t0)/$2 $1/
+
+             
+             BRE Vs. ERE Vs. PCRE 
+                 
+             PCRE
+             | Escape | Meaning            | Matches                                                       | Example             |
+	     | ------ | ------------------ | ------------------------------------------------------------- | ------------------- |
+	     | `\d`   | **digit**          | `[0-9]`                                                       | `\d+` → “12345”     |
+	     | `\D`   | **non-digit**      | `[^0-9]`                                                      | `\D+` → “abc!”      |
+	     | `\w`   | **word char**      | `[A-Za-z0-9_]` (plus Unicode letters in `/u` mode)            | `\w+` → “Hello_123” |
+       | `\W`   | **non-word char**  | `[^A-Za-z0-9_]`                                               | `\W+` → “--- ”      |
+             | `\s`   | **whitespace**     | space, tab, newline, carriage return, vertical tab, form feed | `\s+` → “  \n\t”    |
+             | `\S`   | **non-whitespace** | any visible/non-space char                                    | `\S+` → “abc123”    |
+             | \b     | Boundary           | the word starts with                                          |  \b+                |
+
+           
+        Explore: in grep : use grep -P 
+
+            Conditional statements 
+
+            Conditional statements 
+                   If
+                   Syntax: if (condition)
+                            {
+                             true block
+                            }
+                   
+                      
+                   If - else
+                   Example:
+                   if ($x < $y)
+                   { 
+                   print ("the x is small")
+                   }
+                   else
+                   {
+                   print ("..... "
+                   } 
+
+                   Nested – If
+                   if (condition1) 
+		   {
+                   # Executes when condition1 is true
+
+                     if (condition2) 
+                     {
+                      # Executes when condition2 is true
+                      }
+                   }
+
+                   if - elsif ladder
+
+                   if(condition1)
+		   {  
+                    # code to be executed if condition1 is true  
+                   }
+                   elsif(condition2)
+                   {  
+                     # code to be executed if condition2 is true  
+                   }  
+                   elsif(condition3)
+                   {  
+                     # code to be executed if condition3 is true  
+                   }  
+                    ... 
+                   else
+                   {
+                    # code to be executed if all the conditions are false  
+                   }  
+
+                   Unless
+                   
+               Explore:    unless(boolean_expression) 
+		   {
+                    # will execute if the given condition is false
+                   }
+                   
+                   Unless - else
+                   Unless - elsif
+
+
+                Explore: given(expr)
+                  {
+                  when(expr1){ statement;}
+                  when(expr1){ statement;}
+                  when(expr1){ statement;}
+                  }
+ 
+               
+               Looping - Explore 
+                  for 
+                  foreach
+                  while 
+                  do while 
+                  until 
+                  do until 
+
+
+            Looping statements 
+                                      
+              Numeric 
+              Operators 
+                   +: Addition
+		   -: Subtract
+		   *: Multiplication
+		   /: Division
+		   %: Modulo (returns the remainder of a division)
+		  **: Exponentiation (raises the left operand to the power of the right operand)
+              
+               Type conversion: 
+                   - int 
+                      $a = 10.34                 
+                      print int($a) ;
+                      
+                    - oct - converts the octal value to decimal 
+                    - hex - converts a  number from hexadecimal format to decimal 
+                    - chr - prints the unicode value
+                    - ord - prints the ascii value of the character (first) 
+                    - scalar - find the size of an array
+                    
+                   - abs(), cos(), sin(), exp(), log(), rand(), sqrt()
+
+                Command Line Arguments
+                          How to pass command line arguments 
+                                   perl script_name arg1 arg2…. argn
+
+                          Accessing command line arguments 
+
+		          special variables - ARGV 
+
+		          $#ARGV - Count number of arguments 
+
+		          @ARGV - array - The @ARGV array holds all arguments passed to the script. 
+                                        - To access individual arguments $ARGV[index] 
+
+
+                              #!/usr/bin/perl
+    
+   			      foreach my $arg (@ARGV)
+                              {
+        		      print "Argument: $arg\n";
+                              }
+
+                              my $total_arg = $#ARGV + 1;
+			      #Check the number of arguments
+if ($total_arg >= 1)
+{
+    say "All argument values are:";
+
+    #Print all argument values using the 'foreach' loop
+    foreach my $index (0 .. $#ARGV)
+    {
+         print "$ARGV[$index] ";
+    }
+
+    print "\n";
+}
+else
+{
+    say "No argument value was given.";
+}
+
+                          shift @ARGV
+
+                Array operations 
+                  
+                create : @a = (10, 20, 30);
+                access : $first  = $a[0];
+                slice  : @slice  = @a[0,2];      
+                push   :push   @a, 40; 
+                pop    :pop @a
+                shift  :shift @a; 
+                unshift:unshift @a, 5;
+                splice : splice(array_name, startindex, length, replacement); 
+                join   :$csv    = join(",", @fields);
+                scalar : $n  = scalar @a;
+                last index: $hi = $#a;              
+                sort   : @num  = sort { $a <=> $b } @nums;  # numeric 
+                         show demo using file too 
+
+                reverse: 
+
+                Pattern matching in array: 
+
+                         my @fruits = ("apple", "banana", "cherry", "apricot");
+
+			print "Fruits containing 'app':\n";
+			foreach my $fruit (@fruits) {
+    			if ($fruit =~ /app/) {
+        		print "$fruit\n";
+    			}
+			}
+
+ Explore:               grep   : 
+                        @filtered_list = grep(EXPRESSION, @original_list);
+                        
+                        @myNames = ('Jacob', 'Michael', 'Joshua', 'Mathew', 'Alexander', 'Andrew');
+                        @grepNames = grep(/^A/, @myNames);
+                        
+                        my @names = ("Alice", "Bob", "Charlie", "David");
+                        my @names_starting_with_C = grep { /^C/ } @names;
+
+               
+               File Handling 
+                   open 
+                   close 
+
+
+                perl file test operators 
+
+    Explore: 
+    Hash 
+                 create
+                 access
+              
+    
+    - Special Literals      
+        __FILE__	The current filename.
+        __LINE__	The current line number.
+    Explore:     __PACKAGE__	The current package name.
+        __DATA__ 
+        __END__ 
+
+Explore: More on Perl 
+ - subroutine 
+      - how to create 
+      - how to call 
+      Explore: how to pass arguments 
+               how to return values 
+
+  - hash 
+  - references 
+  - formats
+  
