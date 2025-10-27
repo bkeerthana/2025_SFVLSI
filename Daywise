@@ -729,3 +729,22 @@ version control
      - git add 
      - git log 
      - git rm
+
+Day-24: 
+Revisit 
+     - git ls-files 
+     - git add 
+          git add . 
+          git add * 
+          git add filename 
+          git add *.txt 
+     - git commit 
+     - git log 
+         - git log --oneline 
+         - git log --summary 
+     - git status
+         - git status -s
+     - git diff 
+     - git diff --staged 
+     - git branch 
+s
