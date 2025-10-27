@@ -732,10 +732,11 @@ version control
 
 Day-24: 
 Revisit 
+     - working directory Vs. staging area vs. repo 
+     - git clone 
      - git ls-files 
      - git add 
           git add . 
-          git add * 
           git add filename 
           git add *.txt 
      - git commit 
