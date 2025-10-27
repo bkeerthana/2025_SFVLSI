@@ -731,7 +731,9 @@ version control
      - git rm
 
 Day-24: 
-Revisit 
+Revisit
+     - git config --list 
+         Local Vs. Global Vs. System
      - working directory Vs. staging area vs. repo 
      - git clone 
      - git ls-files 
