@@ -1,0 +1,87 @@
+-------------------------------------------------------------------------
+                           Git - Level-1 - Checklist 
+-------------------------------------------------------------------------
+  - Introduction to git 
+	* what 
+        * why 
+        * advantages 
+        * developed by 
+        * types of version control 
+              --> centralized
+              --> distributed 
+        * git Vs. GitHub
+        * commandline Vs. gui
+        * git architecture 
+              --> working directory
+              --> Staging area
+              --> Local Repo 
+              --> Remote Repo 
+   - Basic Terms 
+     - Repository 
+     - working directory 
+           - modified 
+           - unmodified
+     - commit  
+     - Local Vs. Remote
+     - Merge 
+     - HEAD 
+     - upstream 
+
+    - Getting Help 
+       - To check git is install or not 
+       - Getting help 
+     
+     - setting up a repository
+        - setting configurations 
+              - Levels of configuration  
+              - check the default config 
+              - To set config 
+        - initialize repository 
+              -  Assume you already you have a folder. 
+              -  Create a new with git initialize 
+              -  Download from the remote 
+         - Setting shortcut 
+         - cloning the repo
+         - .gitignore 
+
+     - Tracking and Saving the changes 
+         - check the status 
+         - view the logs
+         - send the files from working directory to staging area
+         - commit the changes 
+         - list files tracked in the repository 
+         - compare changes 
+      
+     - undo the changes 
+         - Remove files       
+             - remove from the repo and filesystem  
+             - remove from the repo , not from the filesystem
+         - clean the untracked files 
+         - reset the files 
+         - restore the files 
+         - revert the commit 
+         - rename the files 
+
+      - Branches 
+         - create branches 
+         - list branches 
+         - switch between branches 
+         - rename the branch 
+         - copy the branch 
+         - delete the branch
+
+      - Combine Branches 
+         - Merge branches 
+            - without conflicts 
+            - resolve conflicts 
+         - Making into linear view (rebase)
+         - Difference between Merge and Rebase 
+      
+      - Authentication 
+
+      - Collaborating 
+          - connecting between local and remote 
+          - view remotes 
+          - push into remote
+          - pull from remote 
+          - fetch updates  
