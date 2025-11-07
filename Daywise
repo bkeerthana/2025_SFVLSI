@@ -785,4 +785,6 @@ git mv
 git rebase
 git revert
 git log --graph --oneline 
+git reflog
+git commit -ammend
 collobration 
