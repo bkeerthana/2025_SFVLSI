@@ -729,7 +729,7 @@ version control
      - git add 
      - git log 
      - git rm
-
+     - git commit 
 Day-24: 
 Revisit
      - git config --list 
@@ -756,7 +756,33 @@ Intro to
       - git push 
       - git pull 
       - git fetch 
+      - git remote
 Setting up Authentication using SSH.
 
+Day-26: 
+git alias 
+.gitignore 
+git branch 
+      - switch 
+      - delete 
+      - copy 
+git merge 
+git checkout 
+git clean 
+git grep 
+git checkout
 
-
+Explore: 
+git restore 
+git reset 
+git cherry-pick
+git stash
+git tag 
+git show 
+git blame
+git gc
+git mv
+git rebase
+git revert
+git log --graph --oneline 
+collobration 
