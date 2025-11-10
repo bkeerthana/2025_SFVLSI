@@ -788,3 +788,29 @@ git log --graph --oneline
 git reflog
 git commit -ammend
 collobration 
+
+Intro to Tcl 
+Hello world from tcl 
+
+Day-27: 
+set 
+puts 
+file operations 
+      glob 
+      glob switch pattern 
+           -nocomplain 
+           -types 
+           -directory 
+       file exists 
+       file delete 
+       file copy
+       file mkdir 
+
+List in tcl 
+             - create 
+             - Access 
+             - length
+             - lindex 
+             - lrange 
+             - linsert 
+             - lappend 
