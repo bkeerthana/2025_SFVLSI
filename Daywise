@@ -814,3 +814,27 @@ List in tcl
              - lrange 
              - linsert 
              - lappend 
+Day-28: 
+Regular Expression 
+            - in string 
+            - in list 
+            - from file 
+
+Conditional statements 
+
+Looping 
+       for 
+       foreach 
+
+File handling 
+       read from the file 
+       write into the file 
+       Append the content 
+
+function 
+       create proc
+       passing value 
+
+Read value from the user 
+pass the value from the command line arguments 
+execute system commands 
