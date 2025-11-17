@@ -1,0 +1,59 @@
+#############################################
+#       PrimeTime Timing Report (Example)   #
+#############################################
+
+Path 1:  Setup Check
+Startpoint: U_ALU/U1 (rising edge)
+Endpoint:   U_ALU/U_OUT (rising edge)
+Path Group: clk
+Path Type:  MAX (Setup)
+Data Arrival Time:  1.250
+Data Required Time: 1.130
+Slack:             -0.120   VIOLATED
+
+----------------------------------------------------
+
+Path 2:  Setup Check
+Startpoint: U_ALU/U2 (rising edge)
+Endpoint:   U_ALU/U_OUT (rising edge)
+Path Group: clk
+Path Type:  MAX (Setup)
+Data Arrival Time:  0.985
+Data Required Time: 1.030
+Slack:              0.045   MET
+
+----------------------------------------------------
+
+Path 3:  Hold Check
+Startpoint: U_REG/UQ (rising edge)
+Endpoint:   U_ALU/U3 (rising edge)
+Path Group: clk
+Path Type:  MIN (Hold)
+Data Arrival Time:  0.250
+Data Required Time: 0.260
+Slack:             -0.010   VIOLATED
+
+----------------------------------------------------
+
+Path 4:  Setup Check
+Startpoint: U_CTRL/U1 (rising edge)
+Endpoint:   U_CTRL/U2 (rising edge)
+Path Group: clk
+Path Type:  MAX (Setup)
+Data Arrival Time:  0.755
+Data Required Time: 1.005
+Slack:              0.250   MET
+
+----------------------------------------------------
+
+Path 5:  Hold Check
+Startpoint: U_CTRL/U2 (rising edge)
+Endpoint:   U_CTRL/U3 (rising edge)
+Path Group: clk
+Path Type:  MIN (Hold)
+Data Arrival Time:  0.330
+Data Required Time: 0.410
+Slack:             -0.080   VIOLATED
+
+--
+

@@ -1,0 +1,4 @@
+This is the sample file
+tcl is like bash script 
+easy to learn
+get manual from linux box
